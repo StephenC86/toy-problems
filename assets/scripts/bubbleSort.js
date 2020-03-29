@@ -24,4 +24,6 @@ const bubbleSort = function(numbers)
 
 let testArray = [420, 4, 69, 23, 42];
 
-console.log("The array after being sorted is: ", bubbleSort(testArray));
+
+document.write("The array before being sorted is: ", testArray);
+document.write("<hr> The array after being sorted is: ", bubbleSort(testArray));
